@@ -1,0 +1,104 @@
+body {
+            width: 100vw;
+            height: 100vh;
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        form {
+            border: 2px solid black;
+            width: 400px;
+            height: 374px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid #565e76;
+            border-radius: 10px;
+            background-image: url("./modern-gradient-shape-background-blue-orange-color_553898-204.jpg");
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Add shadow here */
+        }
+
+        form h2 {
+            color: white;
+            margin-top: 30px;
+        }
+
+        .inputForm {
+            border: 1px solid wheat;
+            width: 80%;
+            height: 8%;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            display: flex;
+
+        }
+        .icons{
+            padding: 5px;
+        }
+
+        .inputForm input {
+            border: none;
+            width: 82%;
+            height: 100%;
+            margin-left: 15px;
+            background-color: transparent;
+            outline: none;
+            color: wheat;
+        }
+
+        .input::placeholder {
+            color: wheat;
+        }
+
+        .flex-row {
+            display: flex;
+            width: 80%;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        label,
+        p,
+        span {
+            color: white;
+        }
+
+        .submit-button {
+            width: 82%;
+            height: 9%;
+            color: white;
+            font-size: large;
+            margin: 20px 0px;
+            border: 1px solid white;
+            background-color: rgb(255, 152, 7);
+            border-radius: 20px;
+        }
+
+        .inputForm:hover {
+            border-color: goldenrod;
+            cursor: pointer;
+        }
+
+        span:hover {
+            cursor: pointer;
+            color: rgb(255, 152, 7);
+            text-decoration: underline;
+        }
+
+        .submit-button:hover {
+            font-weight: bold;
+            cursor: pointer;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url("./bg.jpg") no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
